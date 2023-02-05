@@ -1,0 +1,253 @@
+/* 1020 PX */
+
+@media (max-width: 64em) {
+  .head-btn {
+    /* display: none; */
+  }
+  .nav-bar-mob {
+    display: block;
+  }
+
+  .nav-mob-icon[name="menu-outline"] {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.731);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: none;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .nav-open .nav-links {
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+  }
+
+  .nav-open .nav-mob-icon[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .nav-mob-icon[name="menu-outline"] {
+    display: none;
+  }
+
+  .links-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links-list li a {
+    font-size: 2.4rem;
+  }
+}
+
+/* 950 px */
+
+@media (max-width: 60em) {
+  html {
+    font-size: 10px;
+  }
+
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4.8rem;
+  }
+
+  .hero-image img {
+    width: 80%;
+    align-self: flex-start;
+  }
+}
+
+/* 770 px */
+@media (max-width: 48em) {
+  .pricing-cards {
+    gap: 2rem;
+  }
+
+  .pricing-card {
+    padding: 4rem 3rem;
+  }
+
+  .spons-headings {
+    width: 50%;
+  }
+
+  .spons-logos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .spons-logo {
+    margin-right: 2rem;
+  }
+
+  .download-headings {
+    width: 45%;
+  }
+
+  .apps-btns {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .up-content {
+    width: 80%;
+  }
+}
+
+@media (max-width: 41em) {
+  .how-title {
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+  }
+
+  .how-btn {
+    margin: 0 auto;
+  }
+
+  .prop-card {
+    grid-template-columns: 1fr;
+    width: 75%;
+    margin: 2rem auto;
+  }
+
+  .prop-card > * {
+    text-align: center;
+  }
+
+  .card-text .card-des {
+    width: 100%;
+  }
+
+  .feature-section {
+    grid-template-columns: 1fr;
+    height: 100%;
+    text-align: center;
+  }
+
+  .marketing-image {
+    width: 65%;
+    margin: 0 auto;
+    display: none;
+  }
+
+  .marketing-text {
+    margin: 0 auto;
+    padding-top: 4rem;
+  }
+
+  .up-content {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .up-image img {
+    display: none;
+  }
+
+  .how-it-works-headings {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .how-cards {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .how-card {
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .download-headings {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .download-buttons {
+    margin: 0 auto;
+  }
+
+  .pricing-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-card {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .testimonials {
+    background-size: cover;
+  }
+
+  .testimonial {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .spons-headings {
+    width: 80%;
+  }
+
+  .spons-logos {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+  }
+
+  .footer {
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .about {
+    grid-column: 1/-1;
+    width: 40%;
+  }
+
+  .getintouch {
+    margin-left: auto;
+  }
+
+  .btn-fin {
+    display: none;
+  }
+
+  .how-steps-headings {
+    width: 100%;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .how-steps-headings-text,
+  .how-steps-headings-arr {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 30em) {
+  .head-btn {
+    display: none;
+  }
+}
