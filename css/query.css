@@ -250,4 +250,43 @@
   .head-btn {
     display: none;
   }
+
+  .hero-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .how-steps-headings-text {
+    width: 100%;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-sec {
+    width: 100%;
+  }
+
+  .hero-form {
+    width: 85%;
+  }
+
+  .up-headings .heading-p {
+    width: 100%;
+  }
+
+  .how-it-works-headings .heading-sec {
+    text-align: center;
+  }
+
+  .test-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .spons-headings {
+    width: 100%;
+  }
 }
